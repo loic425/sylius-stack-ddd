@@ -7,5 +7,5 @@ use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigura
 return static function (ContainerConfigurator $containerConfigurator): void {
     $containerConfigurator->import('@SyliusBootstrapAdminUiBundle/config/app.php');
 
-    // $containerConfigurator->import('../sylius/twig_hooks/**/**.php');
+    $containerConfigurator->import('../sylius/twig_hooks/**/**.php');
 };

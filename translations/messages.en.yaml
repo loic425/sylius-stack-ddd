@@ -1,0 +1,4 @@
+app:
+    ui:
+        book: Book
+        books: Books
