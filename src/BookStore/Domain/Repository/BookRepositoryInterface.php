@@ -22,5 +22,9 @@ interface BookRepositoryInterface extends RepositoryInterface
 
     public function withAuthor(Author $author): static;
 
+    public function withAscendingAlphabeticalSorting(): static;
+
+    public function withDescendingAlphabeticalSorting(): static;
+
     public function withCheapestsFirst(): static;
 }

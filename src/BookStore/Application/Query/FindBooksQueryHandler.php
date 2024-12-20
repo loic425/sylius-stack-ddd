@@ -26,6 +26,14 @@ final readonly class FindBooksQueryHandler
             $bookRepository = $bookRepository->withPagination($query->page, $query->itemsPerPage);
         }
 
+        if ($query->alphabeticalSortingAsc) {
+            $bookRepository = $bookRepository->withAscendingAlphabeticalSorting();
+        }
+
+        if ($query->alphabeticalSortingDesc) {
+            $bookRepository = $bookRepository->withDescendingAlphabeticalSorting();
+        }
+
         return $bookRepository;
     }
 }

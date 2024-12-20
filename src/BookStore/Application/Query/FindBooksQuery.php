@@ -17,6 +17,8 @@ final readonly class FindBooksQuery implements QueryInterface
         public ?Author $author = null,
         public ?int $page = null,
         public ?int $itemsPerPage = null,
+        public ?bool $alphabeticalSortingAsc = null,
+        public ?bool $alphabeticalSortingDesc = null,
     ) {
     }
 }

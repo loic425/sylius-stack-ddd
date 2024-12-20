@@ -48,7 +48,7 @@ abstract class DoctrineRepository implements RepositoryInterface
     {
         $paginator = $this->paginator() ?? new Paginator(clone $this->queryBuilder);
 
-        return count($paginator);
+        return $paginator->getTotalItems();
     }
 
     public function paginator(): ?PaginatorInterface
