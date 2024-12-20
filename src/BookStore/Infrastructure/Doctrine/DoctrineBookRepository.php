@@ -47,6 +47,20 @@ final class DoctrineBookRepository extends DoctrineRepository implements BookRep
         });
     }
 
+    public function withAscendingAlphabeticalSorting(): static
+    {
+        return $this->filter(static function (QueryBuilder $qb): void {
+            $qb->orderBy(sprintf('%s.name.value', self::ALIAS), 'ASC');
+        });
+    }
+
+    public function withDescendingAlphabeticalSorting(): static
+    {
+        return $this->filter(static function (QueryBuilder $qb): void {
+            $qb->orderBy(sprintf('%s.name.value', self::ALIAS), 'DESC');
+        });
+    }
+
     public function withCheapestsFirst(): static
     {
         return $this->filter(static function (QueryBuilder $qb): void {

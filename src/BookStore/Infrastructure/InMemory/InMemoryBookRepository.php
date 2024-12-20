@@ -35,6 +35,22 @@ final class InMemoryBookRepository extends InMemoryRepository implements BookRep
         return $this->filter(fn (Book $book) => $book->author()->isEqualTo($author));
     }
 
+    public function withAscendingAlphabeticalSorting(): static
+    {
+        $cloned = clone $this;
+        uasort($cloned->entities, fn (Book $a, Book $b) => $a->name() <=> $b->name());
+
+        return $cloned;
+    }
+
+    public function withDescendingAlphabeticalSorting(): static
+    {
+        $cloned = clone $this;
+        uasort($cloned->entities, fn (Book $a, Book $b) => $b->name() <=> $a->name());
+
+        return $cloned;
+    }
+
     public function withCheapestsFirst(): static
     {
         $cloned = clone $this;
