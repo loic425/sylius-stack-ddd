@@ -12,7 +12,7 @@ use App\BookStore\Infrastructure\Sylius\State\Processor\DeleteBookProcessor;
 use App\BookStore\Infrastructure\Sylius\State\Processor\UpdateBookProcessor;
 use App\BookStore\Infrastructure\Sylius\State\Provider\BookBulkItemsProvider;
 use App\BookStore\Infrastructure\Sylius\State\Provider\BookItemProvider;
-use App\BookStore\Infrastructure\Symfony\Form\BookType;
+use App\BookStore\Infrastructure\Symfony\Form\BookResourceType;
 use Sylius\Resource\Metadata\AsResource;
 use Sylius\Resource\Metadata\BulkDelete;
 use Sylius\Resource\Metadata\Create;
@@ -25,7 +25,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 #[AsResource(
     section: 'admin',
-    formType: BookType::class,
+    formType: BookResourceType::class,
     templatesDir: '@SyliusAdminUi/crud',
     routePrefix: '/admin',
     driver: false,
