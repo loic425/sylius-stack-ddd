@@ -26,9 +26,6 @@ final readonly class BookItemProvider implements ProviderInterface
 
     public function provide(Operation $operation, Context $context): object|array|null
     {
-//        dd($context->get(RequestOption::class)
-//            ?->request());
-
         $id = $context->get(RequestOption::class)
             ?->request()
             ->attributes
