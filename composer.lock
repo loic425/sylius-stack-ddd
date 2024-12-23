@@ -2769,23 +2769,23 @@
         },
         {
             "name": "sylius/admin-ui",
-            "version": "v0.6.0",
+            "version": "v0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/AdminUi.git",
-                "reference": "a90f0a2d3d4d9ae052c092ccd089f3ed5003ce31"
+                "reference": "8929fc506965d3c7319d78ad89ea63a6b39028c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/AdminUi/zipball/a90f0a2d3d4d9ae052c092ccd089f3ed5003ce31",
-                "reference": "a90f0a2d3d4d9ae052c092ccd089f3ed5003ce31",
+                "url": "https://api.github.com/repos/Sylius/AdminUi/zipball/8929fc506965d3c7319d78ad89ea63a6b39028c3",
+                "reference": "8929fc506965d3c7319d78ad89ea63a6b39028c3",
                 "shasum": ""
             },
             "require": {
                 "knplabs/knp-menu-bundle": "^3.0",
                 "php": "^8.1",
                 "sylius/resource-bundle": "^1.11",
-                "sylius/twig-hooks": "^0.6",
+                "sylius/twig-hooks": "^0.6.1",
                 "symfony/http-kernel": "^6.4 || ^7.0",
                 "symfony/security-bundle": "^6.4 || ^7.0",
                 "symfony/security-http": "^6.4 || ^7.0",
@@ -2816,7 +2816,7 @@
                     "require": "7.1.*"
                 },
                 "branch-alias": {
-                    "dev-main": "0.6-dev"
+                    "dev-main": "0.7-dev"
                 }
             },
             "autoload": {
@@ -2828,32 +2828,32 @@
             "description": "Minimalist generic templates and routes for your admin panels",
             "support": {
                 "issues": "https://github.com/Sylius/AdminUi/issues",
-                "source": "https://github.com/Sylius/AdminUi/tree/v0.6.0"
+                "source": "https://github.com/Sylius/AdminUi/tree/v0.6.1"
             },
-            "time": "2024-11-28T16:03:10+00:00"
+            "time": "2024-12-23T15:11:48+00:00"
         },
         {
             "name": "sylius/bootstrap-admin-ui",
-            "version": "v0.6.0",
+            "version": "v0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/BootstrapAdminUi.git",
-                "reference": "86737522f1c6ef3bb9a8ed8b3b45238469dbac0b"
+                "reference": "926a6e4772044862f398912e4f3e9604704f6e47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/BootstrapAdminUi/zipball/86737522f1c6ef3bb9a8ed8b3b45238469dbac0b",
-                "reference": "86737522f1c6ef3bb9a8ed8b3b45238469dbac0b",
+                "url": "https://api.github.com/repos/Sylius/BootstrapAdminUi/zipball/926a6e4772044862f398912e4f3e9604704f6e47",
+                "reference": "926a6e4772044862f398912e4f3e9604704f6e47",
                 "shasum": ""
             },
             "require": {
                 "pagerfanta/twig": "^4.6",
                 "php": "^8.1",
-                "sylius/admin-ui": "^0.6",
+                "sylius/admin-ui": "^0.6.1",
                 "sylius/grid-bundle": "^1.13",
                 "sylius/resource-bundle": "^1.11",
-                "sylius/twig-extra": "^0.6",
-                "sylius/twig-hooks": "^0.6",
+                "sylius/twig-extra": "^0.6.1",
+                "sylius/twig-hooks": "^0.6.1",
                 "symfony/asset": "^6.4 || ^7.0",
                 "symfony/http-client": "^6.4 || ^7.0",
                 "symfony/http-kernel": "^6.4 || ^7.0",
@@ -2880,7 +2880,7 @@
                     "require": "7.1.*"
                 },
                 "branch-alias": {
-                    "dev-main": "0.6-dev"
+                    "dev-main": "0.7-dev"
                 }
             },
             "autoload": {
@@ -2892,9 +2892,9 @@
             "description": "Build your Bootstrap admin panels with Sylius and Symfony UX",
             "support": {
                 "issues": "https://github.com/Sylius/BootstrapAdminUi/issues",
-                "source": "https://github.com/Sylius/BootstrapAdminUi/tree/v0.6.0"
+                "source": "https://github.com/Sylius/BootstrapAdminUi/tree/v0.6.1"
             },
-            "time": "2024-12-12T15:14:58+00:00"
+            "time": "2024-12-23T15:11:48+00:00"
         },
         {
             "name": "sylius/grid-bundle",
@@ -3215,16 +3215,16 @@
         },
         {
             "name": "sylius/twig-extra",
-            "version": "v0.6.0",
+            "version": "v0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/TwigExtra.git",
-                "reference": "03291d7aad277c552699e8a50e75731566848875"
+                "reference": "3555e6948d1e2ac4179cd47e852881cc0b8ede08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/TwigExtra/zipball/03291d7aad277c552699e8a50e75731566848875",
-                "reference": "03291d7aad277c552699e8a50e75731566848875",
+                "url": "https://api.github.com/repos/Sylius/TwigExtra/zipball/3555e6948d1e2ac4179cd47e852881cc0b8ede08",
+                "reference": "3555e6948d1e2ac4179cd47e852881cc0b8ede08",
                 "shasum": ""
             },
             "require": {
@@ -3253,7 +3253,7 @@
                     "require": "7.1.*"
                 },
                 "branch-alias": {
-                    "dev-main": "0.6-dev"
+                    "dev-main": "0.7-dev"
                 }
             },
             "autoload": {
@@ -3278,22 +3278,22 @@
             "description": "Additional Twig extensions for your Symfony projects",
             "support": {
                 "issues": "https://github.com/Sylius/TwigExtra/issues",
-                "source": "https://github.com/Sylius/TwigExtra/tree/v0.6.0"
+                "source": "https://github.com/Sylius/TwigExtra/tree/v0.6.1"
             },
-            "time": "2024-11-28T16:03:10+00:00"
+            "time": "2024-12-13T07:06:36+00:00"
         },
         {
             "name": "sylius/twig-hooks",
-            "version": "v0.6.0",
+            "version": "v0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/TwigHooks.git",
-                "reference": "839090f22450d18c60a97c595a4effc3e91b694f"
+                "reference": "7001a37a50b3c06d639b8a5e7fa8844564aa8260"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/TwigHooks/zipball/839090f22450d18c60a97c595a4effc3e91b694f",
-                "reference": "839090f22450d18c60a97c595a4effc3e91b694f",
+                "url": "https://api.github.com/repos/Sylius/TwigHooks/zipball/7001a37a50b3c06d639b8a5e7fa8844564aa8260",
+                "reference": "7001a37a50b3c06d639b8a5e7fa8844564aa8260",
                 "shasum": ""
             },
             "require": {
@@ -3332,7 +3332,7 @@
                     "require": "7.1.*"
                 },
                 "branch-alias": {
-                    "dev-main": "0.6-dev"
+                    "dev-main": "0.7-dev"
                 }
             },
             "autoload": {
@@ -3356,22 +3356,22 @@
             ],
             "description": "Composable Twig layouts",
             "support": {
-                "source": "https://github.com/Sylius/TwigHooks/tree/v0.6.0"
+                "source": "https://github.com/Sylius/TwigHooks/tree/v0.6.1"
             },
-            "time": "2024-12-12T10:00:03+00:00"
+            "time": "2024-12-13T07:06:36+00:00"
         },
         {
             "name": "sylius/ui-translations",
-            "version": "v0.6.0",
+            "version": "v0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/UiTranslations.git",
-                "reference": "3b179bbb4c804de1dc1ed3a995c9610f081db063"
+                "reference": "b63e7064d74da809f72e009868bbd7e28fc6a3d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/UiTranslations/zipball/3b179bbb4c804de1dc1ed3a995c9610f081db063",
-                "reference": "3b179bbb4c804de1dc1ed3a995c9610f081db063",
+                "url": "https://api.github.com/repos/Sylius/UiTranslations/zipball/b63e7064d74da809f72e009868bbd7e28fc6a3d8",
+                "reference": "b63e7064d74da809f72e009868bbd7e28fc6a3d8",
                 "shasum": ""
             },
             "require": {
@@ -3396,7 +3396,7 @@
                     "require": "7.1.*"
                 },
                 "branch-alias": {
-                    "dev-main": "0.6-dev"
+                    "dev-main": "0.7-dev"
                 }
             },
             "autoload": {
@@ -3408,9 +3408,9 @@
             "description": "Basic UI translations",
             "support": {
                 "issues": "https://github.com/Sylius/UiTranslations/issues",
-                "source": "https://github.com/Sylius/UiTranslations/tree/v0.6.0"
+                "source": "https://github.com/Sylius/UiTranslations/tree/v0.6.1"
             },
-            "time": "2024-11-28T16:03:10+00:00"
+            "time": "2024-12-16T16:11:48+00:00"
         },
         {
             "name": "symfony/asset",
