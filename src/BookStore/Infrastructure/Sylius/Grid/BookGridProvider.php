@@ -13,6 +13,7 @@ use Pagerfanta\PagerfantaInterface;
 use Sylius\Component\Grid\Data\DataProviderInterface;
 use Sylius\Component\Grid\Definition\Grid;
 use Sylius\Component\Grid\Parameters;
+use Webmozart\Assert\Assert;
 
 final readonly class BookGridProvider implements DataProviderInterface
 {
@@ -42,6 +43,9 @@ final readonly class BookGridProvider implements DataProviderInterface
             $data[] = BookResource::fromModel($model);
         }
 
-        return new Pagerfanta(new FixedAdapter(count($models), $data));
+        $paginator = $models->paginator();
+        Assert::notNull($paginator);
+
+        return new Pagerfanta(new FixedAdapter($paginator->getTotalItems(), $data));
     }
 }
